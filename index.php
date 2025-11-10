@@ -21,7 +21,7 @@ while (true)
     }
     else if ($answer == '2')
     {
-        
+        echo "Сумма: " . $a + $b;
     }
     else if ($answer == '3')
     {
