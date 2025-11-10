@@ -40,7 +40,10 @@ while (true)
     }
     else if ($answer == '5')
     {
-        
+        echo "В какую степень возвести число? \n";
+        $c=readline("c= ");
+        echo "a^c: " . pow($a, $c) . "\n";
+        echo "b^c: " . pow($b, $c) . "\n";
     }
     else if ($answer == '6')
     {
