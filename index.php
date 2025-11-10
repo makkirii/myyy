@@ -1,1 +1,46 @@
-<?
+<?php
+$a = 10;
+$b = 5;
+while (true)
+{
+    echo "\n МЕНЮ \n";
+    echo "1. Ввести два числа\n";
+    echo "2. Сложить\n";
+    echo "3. Вычесть\n";
+    echo "4. Разделить\n";
+    echo "5. Возвести в степень\n";
+    echo "6. Выйти\n";
+    echo "Выберите: ";
+    $answer = readline();
+    if($answer == '1')
+    {
+        echo "Введите первое число: ";
+        $a=readline("a = "); 
+        echo "Введите второе число: ";
+        $b=readline("b = ");
+    }
+    else if ($answer == '2')
+    {
+        
+    }
+    else if ($answer == '3')
+    {
+        
+    }
+    else if ($answer == '4')
+    {
+        
+    }
+    else if ($answer == '5')
+    {
+        
+    }
+    else if ($answer == '6')
+    {
+        
+    }
+    else{
+        
+    }
+}
+?>
