@@ -25,7 +25,7 @@ while (true)
     }
     else if ($answer == '3')
     {
-        
+        echo "Разность: " . $a - $b;
     }
     else if ($answer == '4')
     {
