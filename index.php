@@ -29,7 +29,14 @@ while (true)
     }
     else if ($answer == '4')
     {
-        
+         if ($b != 0)
+        {
+            echo "Деление: " . round($a / $b, 3);
+        }
+        else
+        {
+            echo "Нельзя делить на 0!";
+        }
     }
     else if ($answer == '5')
     {
