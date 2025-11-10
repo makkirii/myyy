@@ -47,7 +47,7 @@ while (true)
     }
     else if ($answer == '6')
     {
-        
+        exit;
     }
     else{
         
